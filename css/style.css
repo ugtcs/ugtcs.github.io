@@ -31,6 +31,38 @@ a:hover {
     text-decoration: none;
 }
 
+span.ul.li  {
+    display: inline-block;
+}
+
+.social-media-tray {
+    display: inline-flex;
+}
+
+.social-media-tray ul {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 10px
+}
+
+.social-media-tray ul li {
+    list-style: none;
+    float: left;
+}
+
+.social-media-tray ul li a {
+    display: inline-block;
+    font-size: 40px;
+    transition: 0.5s;
+    color: #aaa;
+    margin: 0 10px;
+}
+
+.social-media-tray ul li:hover a {
+    color: #e91e63;
+    transform: rotateY(360deg);
+}
+
 .members-table {
     border-collapse: separate !important;
 }
