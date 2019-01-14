@@ -35,10 +35,14 @@ span.ul.li  {
     display: inline-block;
 }
 
+/* Calendar CSS */
+
 .calendar {
     float: none;
     margin: 0 auto;
 }
+
+/* Social Media Tray CSS */
 
 .social-media-tray {
     display: inline-flex;
@@ -67,6 +71,8 @@ span.ul.li  {
     color: #e91e63;
     transform: rotateY(360deg);
 }
+
+/* Organization members table CSS */
 
 .members-table {
     border-collapse: separate !important;
