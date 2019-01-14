@@ -35,6 +35,11 @@ span.ul.li  {
     display: inline-block;
 }
 
+.calendar {
+    float: none;
+    margin: 0 auto;
+}
+
 .social-media-tray {
     display: inline-flex;
 }
