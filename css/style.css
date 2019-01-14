@@ -1,32 +1,77 @@
 html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 body {
-  color: #444;
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-  line-height: 1.7;
-  padding: 1em;
+    color: #444;
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    line-height: 1.7;
+    padding: 1em;
 }
 
 hr {
-  display: block;
-  height: 2px;
-  border: 0;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #eee;
-  margin: 1em 0;
-  padding: 0;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #eee;
+    margin: 1em 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+.members-table {
+    border-collapse: separate !important;
+}
+
+.members-cell {
+    background-color: #f6f6f6;
+    border: 6px solid #FFFFFF !important;
+}
+
+.members-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.members-name {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.members-role {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.members-email {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.members-description {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    padding-bottom: 20px;
 }
