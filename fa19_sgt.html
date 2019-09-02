@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Study Groups
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="sp19_approx.html">Spring 2019 &mdash; Approximation Algorithms</a>
+              <a class="dropdown-item" href="sp19_toolkit.html">Spring 2019 &mdash; Theorist's Toolkit</a>
+              <a class="dropdown-item" href="fa18_bwca.html">Fall 2018 &mdash; Beyond Worst Case Analysis</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container" style="margin-top: 1em;">
+      <div class="row">
+        <div class="col-sm">
+          <h1>Spring 2019: Approximation Algorithms</h1>
+          <hr>
+          <p>
+            <strong>Location:</strong> Soda 373 (there will be some exceptions, check the calendar below)
+            <br>
+            <strong>Time:</strong> Every Friday at 6:00pm
+            <br>
+            <strong>Logistics:</strong> Please join our emailing list <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ugapprox-sp19">here</a> to stay up to date with our meetings and events.
+            <br>
+            <strong>Files:</strong> <a href="src/approx-sp19/approx-scribe.sty">Scribe note template</a>
+          </p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h4>About this Group</h4>
+          <p>Does P = NP? Maybe <a href="https://www.cs.umd.edu/~gasarch/papers/poll.pdf">not</a>, but that should not stop our study of intractable problems. There are several approaches towards dealing with NP-hard discrete optimization problems. One method is to relax optimality requirements, and instead try to find an efficient solution that is “good enough.” The study of approximation algorithms encompasses both designing and analyzing algorithms to quantify what “good enough” means.</p>
+          <p>This semester, we study various patterns in designing approximation algorithms by surveying a broad sample of intractable problems. We will encounter problems such as Set Cover and Traveling Salesman and more while discussing design patterns such as approximating via local search and primal-dual rounding of linear programs. As a culmination of our studies, we will discuss what it means to be “inapproximable” and how, in certain cases, it is inefficient to derive a reasonable approximation.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h4>Topics Outline</h4>
+          <p>We will be reading through Williamson and Schmoy's <i>Design of Approximation Algorithms</i>. A copy of this book can be found online <a href="http://www.designofapproxalgs.com/">here</a>. Refer to this <a href="https://docs.google.com/document/d/e/2PACX-1vSz6xi2GUsALh5PXM1co_aeIWirTOmImGuv47y9PLcY7_-X-Dlqc4po6jl3sA5gmw7CTPwswIeWUtnw/pub">document</a> for a more detailed list of topics.</p>
+          <ul>
+            <li>Introduction to various approximation algorithm design patterns</li>
+            <li>Greedy and local search algorithms</li>
+            <ul>
+              <li>Approximating \(k\)-center</li>
+              <li>Christofides algorithm for Traveling Salesman</li>
+              <li>Maximizing sub-modular functions</li>
+            </ul>
+            <li>Dynamic programming and the Knapsack problem</li>
+            <li>Rounding linear programs</li>
+            <ul>
+              <li>Uncapacitated facility location</li>
+              <li>MAX-SAT</li>
+            </ul>
+            <li>Primal-dual algorithms</li>
+            <ul>
+              <li>Dijkstra's algorithm as a linear program</li>
+              <li>Generalized Steiner Tree</li>
+            </ul>
+            <li>Rounding semidefinite programs</li>
+            <ul>
+              <li>Approximating MAXCUT</li>
+              <li>Coloring 3-Colorable Graphs</li>
+            </ul>
+            <li>Graph cuts: multicut and region growing</li>
+            <li>Hardness of approximation and the PCP Theorem</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm">
+          <h4>Readings and Meetings</h4>
+          <table class="table">
+            <thead>
+              <tr class="row">
+                <th align="left" class="col-sm-2">Date</th>
+                <th align="left" class="col-sm-8">Topic</th>
+                <th align="left" class="col-sm-2">Resources</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td class="col-sm-2">2/2/2019</td>
+                <td class="col-sm-8">
+                  <p>Preliminary logistics meeting &mdash; Soda 320 @ 5:30pm</p>
+                  <ul>
+                    <li>Discuss plans for weekly meetings and semester long goals.</li>
+                  </ul>
+                </td>
+                <td class="col-sm-2"></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">2/8/2019</td>
+                <td class="col-sm-8">
+                  <p>Introduction to Approximation Algorithms w/ Set Cover presented by Zod &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li><i>Read WS &sect; 1</i> A motivation for building approximation algorithms and a tour of design patterns using set cover as an example.</li>
+                  </ul>
+                </td>
+                <td class="col-sm-2"></td>
+              </tr>
+            </tr>
+            <tr class="row">
+              <td class="col-sm-2">2/15/2019</td>
+              <td class="col-sm-8">
+                <p>A greedy 2-approximation for \(k\)-center presented by Ida &mdash; Soda 373 @ 6:00pm</p>
+                <ul>
+                  <li><i>Read WS introduction before &sect; 2.1, &sect; 2.2</i> Differentiating between greedy and local search algorithms, a 2-approximation for \(k\)-center, and a proof that this is the optimal approximation ratio unless P=NP.</li>
+                </ul>
+              </td>
+              <td class="col-sm-2"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

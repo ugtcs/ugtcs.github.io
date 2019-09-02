@@ -1,0 +1,43 @@
+title: UGTCS
+email: 
+description: >
+    We are a group of students building a community to foster interest in theoretical computer science among undergraduates.
+permalink: ':title/'
+baseurl: ""
+url: ""
+
+# Contact links
+email: gabrielchen@berkeley.edu
+phone:
+website: gabriel-chen.github.io
+linkedin:
+github: gabriel-chen
+twitter:
+facebook:
+instagram: gabriel.c.gabriel
+pinterest:
+
+# Newsletter
+mailchimp:
+
+# Disqus
+discus_identifier:
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-feed
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
