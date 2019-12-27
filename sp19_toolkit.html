@@ -1,63 +1,21 @@
-<html>
-  <head>
-    <title>Undergraduate Theoretical CS @ Berkeley</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Study Groups
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="fa18_bwca.html">Fall 2018 &mdash; Beyond Worst Case Analysis</a>
-              <a class="dropdown-item" href="sp19_approx.html">Spring 2019 &mdash; Approximation Algorithms</a>
-              <a class="dropdown-item" href="sp19_toolkit.html">Spring 2019 &mdash; Theoretician's Toolkit</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+---
+layout: default
+title: A Theorist's Toolkit
+permalink: /sp19_toolkit/
+---
     <div class="container" style="margin-top: 1em;">
       <div class="row">
         <div class="col-sm">
-          <h1>Spring 2019: A Theoretician's Toolkit</h1>
+          <h1>Spring 2019: A Theorist's Toolkit</h1>
           <hr>
           <p>
-            <strong>Location:</strong> TBA
+            <strong>Location:</strong> Soda 373 (there will be some exceptions, check the calendar below)
             <br>
-            <strong>Time:</strong> TBA
+            <strong>Time:</strong> Every Monday at 6:00pm
             <br>
-            <strong>Logistics:</strong> TBA
+            <strong>Logistics:</strong> Please join our emailing list <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ugtheorytoolkit-sp19">here</a> to stay up to date with our meetings and events.
+            <br>
+            <strong>Files:</strong> <a href="/src/toolkit-sp19/toolkit-scribe.sty">Scribe note template</a>
           </p>
           <hr>
         </div>
@@ -66,8 +24,44 @@
         <div class="col-sm">
           <h4>About this Group</h4>
           <p>
-            Coming soon to a Soda Hall near you!
+            Modern algorithm design and analysis often samples techniques from a common toolbox of analytic techniques. These may include using concentration inequalities to bound error probabilities or using linear programming to relax intractable problems. This reading group, adapted from courses of similar names (see links below), will provide a tapas style introduction to these tools. Our goal will be to cover argument styles and constructions from a diverse set of mathematical studies. Building off of tools and ideas from CS70 and CS170, we will discuss topics in linear algebra, probability theory, optimization, convex geometry, information theory, and more as well as a examples of each that demonstrate their applicability towards solving a variety of combinatorial problems. Some include:
+            <ul>
+              <li>Analyzing hash functions and error correcting codes as sets of linear equations</li>
+              <li>Modeling random walks using electrical networks </li>
+              <li>Using entropy to demonstrate that certain subgraphs exist</li>
+            </ul>
           </p>
+          <p>The examples we encounter along the way will be rigorous yet succinct, and hopefully reveal connections between various problems that one might not have expected!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h4>Topics Outline</h4>
+          <p>Refer to this <a href="https://docs.google.com/document/d/e/2PACX-1vSEb2Tg5e40s-uWidNj_xtxn9A3hxE0ZSyui00QhMj6RcziGxc2pdO8FCSevw5U0zwdHKQ9VW3GpPnb/pub">document</a> for a more detailed list of topics.</p>
+          <ul>
+            <li>Dimension arguments and error correcting codes</li>
+            <li>The Probabilistic Method</li>
+            <li>Spectral graph theory</li>
+            <li>Electrical flows and random graph walks</li>
+            <li>Randomized rounding of semidefinite programs</li>
+            <li>High-dimensional convex geometry</li>
+            <li>Information theory</li>
+            <li>Expander graphs and applications to derandomization</li>
+            <li>Boolean analysis and applications to property testing</li>
+            <li>Quantum computing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h4>Additional Resources</h4>
+          <ul>
+            <li>Ryan O'Donnell <a href="http://www.cs.cmu.edu/~odonnell/toolkit13/">A Theorist's Toolkit 2013</a></li>
+            <li>Sanjeev Arora's offering of a similar course for <a href="http://www.cs.princeton.edu/courses/archive/fall02/cs597D/">2002</a> and <a href="https://www.cs.princeton.edu/courses/archive/fall07/cos597D/Site/coursepage.html">2007</a> and related <a href="http://www.cs.princeton.edu/~arora/pubs/toolkit.pdf">notes</a></li>
+            <li>Johan Håstad's <a href="http://www.nada.kth.se/~johanh/verktyg/info.html">Teoretikerns verktygslåda</a></li>
+            <li>Madhur Tulsiani's A Mathematician's toolkit from <a href="http://ttic.uchicago.edu/~madhurt/courses/toolkit2016/index.html">2016</a> and <a href="http://ttic.uchicago.edu/~madhurt/courses/toolkit2018/index.html">2018</a></li>
+            <li>Jonathan Kelner's An Algorithmist's toolkit from <a href="http://stellar.mit.edu/S/course/18/fa07/18.409/">2007</a> and <a href="http://stellar.mit.edu/S/course/18/fa09/18.409/">2009</a></li>
+          </ul>
         </div>
       </div>
       <hr>
@@ -76,25 +70,184 @@
           <h4>Readings and Meetings</h4>
           <table class="table">
             <thead>
-              <tr>
-                <th align="left">Date</th>
-                <th align="left">Topic</th>
-                <th align="left">Resources</th>
+              <tr class="row">
+                <th align="left" class="col-sm-2">Date</th>
+                <th align="left" class="col-sm-8">Topic</th>
+                <th align="left" class="col-sm-2">Resources</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>TBA</td>
-                <td>
-                  <p>Preliminary logistics meeting &mdash; TBA</p>
+              <tr class="row">
+                <td class="col-sm-2">2/2/2019</td>
+                <td class="col-sm-8">
+                  <p>Preliminary logistics meeting &mdash; Soda 320 @ 5:30pm</p>
+                  <ul>
+                    <li>Discuss plans for weekly meetings and semester long goals.</li>
+                  </ul>
                 </td>
-                <td>
+                <td class="col-sm-2"></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">2/4/2019</td>
+                <td class="col-sm-8">
+                  <p>The Dimension Argument presented by Jonathan &mdash; <strong>Cory 293 (different room)</strong> @ 6:00pm</p>
+                  <ul>
+                    <li>Developing elementary linear algebra arguments, and applying them to dispersal of information in polynomials.</li>
+                    <ul>
+                      <li>These <a href="https://drive.google.com/a/berkeley.edu/file/d/1whivDVAJXcu5IKERhJJs-YnrwaTrIz6B/view?usp=sharing">notes</a> on the dimension argument and applications to error correcting codes and hashing.</li>
+                    </ul>
+                  </ul>
                 </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-1.pdf">Scribe notes</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">2/11/2019</td>
+                <td class="col-sm-8">
+                  <p>The Probabilistic Method presented by Nate &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Proving the existence of an object with a certain property by proving that a randomly chosen object has that property with positive probability -- applications like Ramsey numbers, existence of a large max-cut, size of independent set, graph crossing number, etc. </li>
+                    <ul>
+                      <li> These <a href="https://people.eecs.berkeley.edu/~sinclair/cs271/n5.pdf">notes</a> on the probabilistic method. </li>
+                      <li> These <a href="https://theory.stanford.edu/~jvondrak/MATH233A-2018/Math233-lec02.pdf">notes</a> on the Lov&aacute;sz Local Lemma. </li>
+                      <li> The paper <a href="http://math.uchicago.edu/~may/REU2016/REUPapers/Tsui.pdf"><i>Graphs with Large Girth and Large Chromatic Number</i></a> by Cheuk To Tsui. </li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-2.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">3/4/2019</td>
+                <td class="col-sm-8">
+                  <p>Spectral Graph Theory 1 presented by Antares and Zhiwei &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Introducing the eigenvalues of a graph’s adjacency matrix, the Laplacian matrix, and variational characterization of eigenvalues.</li>
+                    <ul>
+                      <li> These <a href="https://cs.uwaterloo.ca/~lapchi/cs798-2015/notes/L02.pdf">notes</a> introducing Spectral Graph Theory.
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2">
+                  <a href="/src/toolkit-sp19/scribe-notes-3.pdf">Full scribe notes in progress...</a>
+                  <br />
+                  <a href="/src/toolkit-sp19/scribe-notes-3-2.pdf">Antares's scribe notes (draft)</a>
+                </td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">3/11/2019</td>
+                <td class="col-sm-8">
+                  <p>Spectral Graph Theory 2 presented by Alex and Robert &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Introducing Markov Chains and applying SGT to analyze random walks and mixing times.</li>
+                    <ul>
+                      <li> These <a href="https://www.cs.princeton.edu/courses/archive/fall05/cos521/markov.pdf">notes</a> on Markov chains and mixing times.</li>
+                      <li> These <a href="https://www.cs.princeton.edu/courses/archive/fall05/cos521/markov.pdf">notes</a> on random walks.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-4.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">3/18/2019</td>
+                <td class="col-sm-8">
+                  <p>Electrical Flows presented by Druv and Zhiwei &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Analyzing commute time and cover time of a random walk by treating the graph as a network of resistors.</li>
+                    <ul>
+                      <li> These <a href="https://cs.uwaterloo.ca/~lapchi/cs798-2015/notes/L12.pdf">notes</a> on SGT and Electrical Networks.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2">Scribe notes in progress...</td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">4/1/2019</td>
+                <td class="col-sm-8">
+                  <p>Randomized Rounding of SDPs presented by Ida and Zod &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Relaxing MAX CUT to an SDP, and randomly rounding the SDP's solution back to a near-optimal cut.</li>
+                    <ul>
+                      <li> Chapters 6.1 and 6.2 from <a href="http://www.designofapproxalgs.com/book.pdf"><i>The Design of Approximation Algorithms</i></a> by Williamson and Shmoys, on SDPs and finding large cuts.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-6.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">4/15/2019</td>
+                <td class="col-sm-8">
+                  <p>High Dimensional Convex Geometry presented by Antares and Jon &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Using polyhedral combinatorics (in particular, the Brunn-Minkowski Inequality) to sort a partially ordered set. Somehow.</li>
+                    <ul>
+                      <li> Brunn-Minkowski and applications to sorting partially ordered sets in Matousek’s <i>Lectures in Discrete Geometry</i>.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2">
+                  <a href="/src/toolkit-sp19/scribe-notes-7.pdf">Jon's notes (draft)</a>
+                  <br />
+                  <a href="/src/toolkit-sp19/scribe-notes-7-2.pdf">Antares's scribe notes (draft)</a>
+                </td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">4/22/2019</td>
+                <td class="col-sm-8">
+                  <p>Information Theory presented by Jon &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Introducing entropy and Kullback-Leibler Divergence, with cool applications in combinatorics and probability. </li>
+                    <ul>
+                      <li> See the scribe notes for a brief introduction to Entropy.</li>
+                      <li> These <a href="https://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l2.pdf">notes</a> introducing Joint entropy and Chain Rule for Entropy.</li>
+                      <li> These <a href="http://www.cs.princeton.edu/~mbraverm/pmwiki/uploads/COS597F-Lecture2.pdf">notes</a> with more combinatorial applications.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-8.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">4/29/2019</td>
+                <td class="col-sm-8">
+                  <p>Derandomization and Expanders presented by Jonathan &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Introducing Pseudorandom Generators, using them to derandomize "random" algorithms, and their relation to the BPP complexity class. </li>
+                    <ul>
+                      <li> These <a href="http://www.cs.cmu.edu/~odonnell/toolkit13/lecture11.pdf">notes</a> about derandomization.</li>
+                      <li> <a href="http://people.seas.harvard.edu/~salil/pseudorandomness/expanders.pdf">Chapter 4</a> from Salil Vadhan's survey of Pseudorandomness, on expander graphs.</li>
+                      <li> Chapters 8 from <a href="https://www.math.ias.edu/files/mathandcomp.pdf"><i>Mathematics and Computations</i></a> by Avi Wigderson, on abstract pseudorandomness.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-9.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">5/6/2019</td>
+                <td class="col-sm-8">
+                  <p>Boolean Analysis and Property Testing presented by Alex, Debayan, and Kobe &mdash; Soda 373 @ 6:00pm</p>
+                  <ul>
+                    <li> Performing Fourier analysis on boolean functions, analyzing their behavior with SGT, and applying it to property testing. </li>
+                    <ul>
+                      <li> These <a href="http://www.cs.cmu.edu/~odonnell/toolkit13/lecture18.pdf">notes</a> introducing Boolean Analysis.</li>
+                      <li> This <a href="https://www.intfxdx.com/downloads/arrow-boolean-fourier-2015.pdf">notes</a> on proving Arrow's Theorem with Boolean Analysis.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-10.pdf">Scribe notes (draft)</a></td>
+              </tr>
+              <tr class="row">
+                <td class="col-sm-2">5/10/2019</td>
+                <td class="col-sm-8">
+                  <p>Quantum Computing presented by Robert and Vishnu &mdash; Soda 373 @ 5:00pm</p>
+                  <ul>
+                    <li> Mathematical representation of qubits, quantum circuits, and algorithms for quantum machines (Shor's, search) </li>
+                    <ul>
+                      <li> These <a href="http://www.cs.cmu.edu/~odonnell/toolkit13/lecture22.pdf">notes</a> introducing Quantum computing.</li>
+                    </ul>
+                  </ul>
+                </td>
+                <td class="col-sm-2"><a href="/src/toolkit-sp19/scribe-notes-11.pdf">Scribe notes (draft)</a></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
     </div>
-  </body>
-</html>
