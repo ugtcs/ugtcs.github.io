@@ -5,6 +5,7 @@ UGTCS Website Develope Reference Doc
 
 - [x] add pages folder and put all study groups into it
 - [x] write loop function for all members
+- [ ] add all members in google doc
 
 ### Log
 
