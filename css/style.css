@@ -118,3 +118,13 @@ span.ul.li  {
     font-size: 13px;
     padding-bottom: 20px;
 }
+
+.main-footer {
+  padding: 15px 0;
+}
+
+.main-footer .copyright {
+  text-align: center;
+  color: #311e3e;
+  font-size: 16px;
+}
