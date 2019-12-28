@@ -6,6 +6,10 @@ permalink: ':title/'
 baseurl: ""
 url: ""
 
+# members
+collections:
+    members:
+
 # Contact links
 email: gabrielchen@berkeley.edu
 phone:
