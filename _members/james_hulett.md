@@ -1,7 +1,7 @@
 ---
 name: James Hulett
-role: Head of Avoiding Giving Presentations
+role: Chief "Why Is This Guy Still Here?" Officer
 email: jhulett (at) berkeley.edu
-description: I'm a fourth-year CS and Math double major. I spell Math without an "s" but pronounce it with one, just to make sure I annoy both Americans and British people.
+description: I actually graduated last year so to be sure I *also* don't know why I'm still here.  Though I am quite curious if you can include emoji in this description.  🤔💻👨  I guess I'll know if that worked once this goes on the website.
 img: /src/images/member-jhulett-1.jpg
 ---
