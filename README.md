@@ -20,6 +20,10 @@ include all css in head.html and js in footer.html. header.html include the head
 
 all different kinds of layout for pages
 
+### _members
+
+contains all members on about.html page. all members excpet the president, vice president, and Antares will be rendered in alphabet order. check section "how to add yourself to the member page" to add yourself on our website.
+
 ### How to add yourself to the member page
 
  1. fork the repo.
