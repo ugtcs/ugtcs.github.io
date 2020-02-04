@@ -1,14 +1,17 @@
 title: UGTCS
 email: 
 description: >
-    We are a group of students building a community to foster interest in theoretical computer science among undergraduates.
+  We are a group of students building a community to foster interest in theoretical computer science among undergraduates.
 permalink: ':title/'
 baseurl: ""
 url: ""
 
 # members
 collections:
-    members:
+  members:
+  reading-groups:
+    output: true
+    sort_by: sem
 
 # Contact links
 email: gabrielchen@berkeley.edu

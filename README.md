@@ -28,6 +28,6 @@ contains all members on about.html page. all members excpet the president, vice 
 
  1. fork the repo.
  2. in _members folder, add a markdown file about yourself in same format as other members.
- 3. add a picture of yourself in the /src/images/ folder.
+ 3. add a picture of yourself in the /assets/img/members/ folder.
  4. modify your file in _members folder to match the image you added.
  5. pull request to the repo.
