@@ -12,18 +12,31 @@ html, body {
     border-radius: 0;
 }
 
+.cmu {
+    font-family: 'Computer Modern Sans', sans-serif;
+}
+
 .navbar-brand.navbar-cmu {
     font-family: 'Computer Modern Sans', sans-serif;
     color: #003262;
 }
 
-a:hover {
-    text-decoration: none;
+/* Sticky footer! */
+$footer-height: 186px;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: $footer-height; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height; /* Set the fixed height of the footer here */
 }
 
-span.ul.li  {
-    display: inline-block;
-}
 
 /* Calendar CSS */
 
