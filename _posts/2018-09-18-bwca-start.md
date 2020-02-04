@@ -4,7 +4,10 @@ title: "Beyond Worst Case Analysis has Started!"
 author: Antares Chen
 ---
 
-The fall 2018 UGTCS Beyond Worst Case Analysis reading group is now in full swing, where in this week's meeting, we discussed how the expected max clique size in a random $$\mathcal{G}_{n,p}$$ graph is close to $$ 2\log(n) $$with high probability. 
+The fall 2018 UGTCS Beyond Worst Case Analysis reading group is now in full swing!
+
+In this week's meeting, we discussed how the expected max clique size in a random $$\mathcal{G}_{n,p}$$ graph is close to $$ 2\log(n) $$with high probability. 
+
 BWCA is a reading group that analyzes where worst-case analysis fails and provides more refined methods for analysis of algorithms. 
 We cover topics such as average-case analysis for random instances, analysis of distributions with planted solutions, semi-random models, instance stability, and analysis of online algorithms.
 

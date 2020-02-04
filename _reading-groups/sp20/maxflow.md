@@ -10,11 +10,18 @@ logistics: >-
 files: >- 
     [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty)
 weeks:
- - date: 2/3/2020
-   topic: >-
-    Reading group General meeting and preliminary logistics — Soda 380 @ 7:00pm
+  - date: 2/3/2020
+    topic: >-
+      Reading group General meeting and preliminary logistics — Soda 380 @ 7:00pm
     
-    - Discuss semester long goals, plans for weekly meetings, and unit requirements.
+      - Discuss semester long goals, plans for weekly meetings, and unit requirements.
+  - date: 
+    topic: >-
+      [CKMST11] presented by Antares &mdash; Soda 373 @ 6:00pm
+      
+      - Read _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
+      
+      - Round table discussion on _Wednesday 7:00pm @ Soda 373_ will cover experts, electrical flows, and other related background.
 ---
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization. 

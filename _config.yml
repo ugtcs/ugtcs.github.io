@@ -13,7 +13,7 @@ collections:
     output: true
     sort_by: sem
 
-excerpt_separator: <!--more-->
+# excerpt_separator: <!--more-->
 
 # Contact links
 email: gabrielchen@berkeley.edu
