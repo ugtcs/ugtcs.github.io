@@ -19,7 +19,12 @@ layout: default
   <div class="row">
     <div class="col">
       <h2 class="mt-0">About Us</h2>
-      <p>Theoretical computer science is a beautiful subject of study at the interesection of computer science and mathematics.</p>
+      <p>Berkeley is one of the cradles of theoretical computer science, a subject of study at the intersection of computer science and mathematics.
+        The <code></code><b>U</b>nder<b>g</b>raduate <b>T</b>heory of <b>C</b>omputer <b>S</b>cience (<b>UGTCS</b>) club at Berkeley is a broader community for students of all interests and backgrounds 
+        to learn and get involved in this beautiful subject.
+      </p>
+      <p>Through social events, study groups, talks, seminars, and annual decals, we explore the mathematical foundations of CS as well as its intrinsic connections other studies: economics through computational game theory and mechanism design, physics through random structures and quantum computing, biology, and mathematics.
+        We make our events not only educational and enlightening, but also approachable and fun.</p>
     </div>
   </div>
   <div class="row">
@@ -30,38 +35,10 @@ layout: default
   </div>
   <div class="row">
     <div class="col-sm">
-      <h4>Recent Posts</h4>
-      <div class="card" style="margin-top:10px;">
-        <div class="card-body">
-          <h5 class="card-title" style="margin-top:0px;">Spring 2020 General Meeting Recap</h5>
-          <p><strong>Posted: </strong> 2-3-2020</p>
-          <p class="card-text">
-            Hi everyone, thanks for coming out to our first general meeting! We hope
-            you found a group you're interested in. If you missed the meeting, the slides
-            can be found
-            <a href="https://docs.google.com/presentation/d/1a1INVY1zZUHM2Nl_KQy1X8iwwsqQF5_ve7jTyL7v-ps/edit?usp=sharing">here.</a>
-            If you're interested in joining a group, please fill out the interest form
-            <a href="https://tinyurl.com/ugtcsinterest">here</a> to recieve mail
-            about the group, and join our slack channel <a href="https://tinyurl.com/joinugtcsslack">here</a>
-            as well as the mailing list <a href="https://tinyurl.com/joinugtcslist">here</a>. We're
-            looking forward to seeing you soon!
-          </p>
-        </div>
-      </div>
-      <div class="card" style="margin-top:10px;">
-        <div class="card-body">
-          <h5 class="card-title" style="margin-top:0px;">Spring 2020 General Meeting Soon!</h5>
-          <p><strong>Posted: </strong> 1-31-2020</p>
-          <p class="card-text">
-            Hi everyone, welcome back! I hope your semester has started off well.
-            We’ll be having our first general meeting on Monday, February 3 at 7pm
-            in Soda 380. Come eat free food and listen to us announce our two
-            reading groups for the semester as well as some smaller groups that
-            allow you to meet people and either do some theory research or focus
-            on a topic you’re more interested in.
-          </p>
-        </div>
-      </div>
+      <h2>Recent Posts from the UGTCS Blog</h2>
+      {% for post in site.posts limit: 1 %}
+        {% include post-link.html post=post %}
+      {% endfor %}
       <br>
     </div>
   </div>

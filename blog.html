@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h1>Theory \(\sup\): The UGTCS Blog</h1>
+            
+            {% for post in site.posts %}
+            {% include post-link.html post=post space=true %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

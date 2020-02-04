@@ -1,0 +1,38 @@
+---
+layout: default
+title: People
+---
+
+<div class="container" style="margin-top: 1em;">
+
+      <div class="row">
+        <div class="col-sm">
+          <h1>People</h1>
+          <table class="table members-table">
+            <tr class="row">
+                {% assign exec = site.members | where_exp:'member','member.order' | sort:'order' %}
+                {% for member in exec %}
+                    <td class="col-sm-4 members-cell">
+                        <img class="members-image" src="{{ member.img }}">
+                    <div class="members-name">{{ member.name }}</div>
+                    <div class="members-role">{{ member.role }}</div>
+                    <div class="members-email">{{ member.email }}</div>
+                    <div class="members-description">{{ member.description }}</div>
+                    </td>
+                {% endfor %}
+                {% for member in site.members %}
+                    {% unless member.order %}
+                    <td class="col-sm-4 members-cell">
+                        <img class="members-image" src="{{ member.img }}">
+                        <div class="members-name">{{ member.name }}</div>
+                        <div class="members-role">{{ member.role }}</div>
+                        <div class="members-email">{{ member.email }}</div>
+                        <div class="members-description">{{ member.description }}</div>
+                    </td>
+                    {% endunless %}
+			          {% endfor %}
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>

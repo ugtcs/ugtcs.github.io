@@ -1,0 +1,9 @@
+<div class="card {% if include.space %} mb-4 {% endif %}">
+    <div class="card-body">
+        <h4 class="card-title my-1">{{ include.post.title }}</h4>
+        <p class="card-subtitle text-muted my-2">{{ include.post.date | date: '%B %d, %Y' }} &bull; {{ include.post.author }}</p>
+        {{ post.excerpt }}
+    
+        <a href="{{ include.post.url }}" class="btn btn-outline-secondary">Read more &raquo;</a>    
+    </div>
+</div>
