@@ -1,25 +1,22 @@
 ---
-layout: default
+layout: page
 ---
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <h1>{{ page.title }}</h1>
-            <div class="card-subtitle text-muted pb-2">{{ page.date | date: '%B %d, %Y' }} &bull; {{ page.author }}</div>
-            {{ content }}
 
-            <div class="btn-group">
-                {% if page.previous.url %}
-                    <a href="{{ page.previous.url }}" class="btn btn-secondary">&laquo; Previous</a>
-                {% else %}
-                    <a href="{{ page.previous.url }}" class="btn btn-secondary disabled">&laquo; Previous</a>
-                {% endif %}
-                {% if page.next.url %}
-                    <a href="{{ page.next.url }}" class="btn btn-secondary">Next &raquo;</a>
-                {% else %}
-                    <a href="{{ page.next.url }}" class="btn btn-secondary disabled">Next &raquo;</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
+<h1>{{ page.title }}</h1>
+
+<div class="card-subtitle text-muted pb-2">{{ page.date | date: '%B %d, %Y' }} &bull; {{ page.author }}</div>
+
+{{ content }}
+
+<div class="btn-group">
+    {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" class="btn btn-secondary">&laquo; Previous</a>
+    {% else %}
+        <a href="{{ page.previous.url }}" class="btn btn-secondary disabled">&laquo; Previous</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a href="{{ page.next.url }}" class="btn btn-secondary">Next &raquo;</a>
+    {% else %}
+        <a href="{{ page.next.url }}" class="btn btn-secondary disabled">Next &raquo;</a>
+    {% endif %}
 </div>

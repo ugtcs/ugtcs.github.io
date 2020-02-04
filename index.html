@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="jumbotron jumbotron-people text-light text-center py-5">
-  <div class="container">
+<div class="jumbotron jumbotron-people text-light text-center">
+  <div class="container py-5 my-5s">
     <div class="row justify-content-md-center">
       <div class="col-md-9">
         <h1 class="title">
@@ -16,7 +16,7 @@ layout: default
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row py-3">
     <div class="col">
       <h2 class="mt-0">About Us</h2>
       <p>Berkeley is one of the cradles of theoretical computer science, a subject of study at the intersection of computer science and mathematics.
@@ -27,15 +27,80 @@ layout: default
         We make our events not only educational and enlightening, but also approachable and fun.</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row my-3">
     <div class="col">
       <h2>Offerings</h2>
-      Many!
+     
+      <div class="card-columns">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Reading Groups</h5>
+            <p class="card-text">Every semester UGTCS hosts one or more reading groups, 
+              which meet weekly to talk about papers for a certain topic.
+            These are a fantastic opportunity to learn interesting topics in more depth.</p>
+            <a href="{% link reading-groups.html %}" class="btn btn-secondary">View Reading Groups</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Research</h5>
+            <p class="card-text">
+              Our members often take on research projects in CS theory advised by Berkeley professors or graduate students.
+              We are pioneering some initiatives so that members can do research within the club, 
+              with the goal of making CS theory research less daunting.
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Reading Groups</a> -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Community</h5>
+            <p class="card-text">
+              We have several venues for community, including an active Slack workspace.
+
+              Some subset of us is always present at <a href="http://theory.cs.berkeley.edu/theory-lunch.html">Theory Lunch</a>, Wednesdays at 12pm in the Wozniak Lounge.
+
+
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Socials</h5>
+            <p class="card-text">
+              We host at least one really fun social every semester.
+              It's always a fantastic time to joke around about theory, and meet people who are interested
+              in the subject!
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Events</a> -->
+          </div>
+          <img src="/assets/img/community.jpg" class="card-img-bottom" alt="UGTCS social">
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Advising</h5>
+            <p class="card-text">As a research-heavy club, many of our members are interested in graduate school.
+              We are planning to host events such as a graduate student panel and grad school workshop, to make this
+              sometimes complicated and scary process a little easier!
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Reading Groups</a> -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Something Else?</h5>
+            <p class="card-text">Interested in starting something new? 
+              Have an idea you would like to try? Get in contact with us!</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
-  <div class="row">
+  <div class="row my-3">
     <div class="col-sm">
-      <h2>Recent Posts from the UGTCS Blog</h2>
+      <h2>Latest Post from the UGTCS Blog</h2>
       {% for post in site.posts limit: 1 %}
         {% include post-link.html post=post %}
       {% endfor %}
