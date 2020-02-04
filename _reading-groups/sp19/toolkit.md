@@ -1,5 +1,5 @@
 ---
-layout: reading_group
+layout: reading-group
 name: Theorist's Toolkit
 sem: 2019-2
 ---

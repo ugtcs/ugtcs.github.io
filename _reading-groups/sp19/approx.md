@@ -1,5 +1,5 @@
 ---
-layout: reading_group
+layout: reading-group
 name: Approximation Algorithms
 sem: 2019-2
 ---

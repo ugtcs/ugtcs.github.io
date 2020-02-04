@@ -1,12 +1,20 @@
 ---
 name: Convex Optimization and Maximum Flows
 sem: 2020-2
-layout: reading_group
-location: TBD
-time: TBD
-logistics: TBD
+layout: reading-group
+location: Soda 373 
+time: Round table discussions each Wednesday at 7:00 pm, and presentations each Friday at 6:00 pm 
+logistics: >-
+    Please join our emailing list [here](https://groups.google.com/d/forum/ugtcs-maxflow-sp20) to stay up to date with current events. 
+    Fill out this [Google Form](https://forms.gle/D4PKQVwo7RPJc23p8") for course units.
 files: >- 
     [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty)
+weeks:
+ - date: 2/3/2020
+   topic: >-
+    Reading group General meeting and preliminary logistics — Soda 380 @ 7:00pm
+    
+    - Discuss semester long goals, plans for weekly meetings, and unit requirements.
 ---
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization. 

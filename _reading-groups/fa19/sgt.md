@@ -1,5 +1,5 @@
 ---
-layout: reading_group
+layout: reading-group
 name: Spectral Graph Theory
 sem: 2019-4
 ---

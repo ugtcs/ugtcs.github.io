@@ -24,6 +24,27 @@ layout: default
                 </div>
             </div>
             {{ content }}
+
+            <table class="table">
+                <thead>
+                  <tr class="row">
+                    <th align="left" class="col-sm-2">Date</th>
+                    <th align="left" class="col-sm-8">Topic</th>
+                    <th align="left" class="col-sm-2">Resources</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for week in page.weeks %}
+                    <tr class="row">
+                        <td class="col-sm-2">{{ week.date }}</td>
+                        <td class="col-sm-8"> {{ week.topic | markdownify }} </td>
+                        <td class="col-sm-2">
+                            {{ week.resources | markdownify }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+              </table>
         </div>
     </div>
 </div>
