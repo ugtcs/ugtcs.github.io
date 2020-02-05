@@ -6,7 +6,7 @@ location: Soda 373 (there will be some exceptions, check the calendar below)
 time: Every Friday at 6:00pm 
 logistics: Please join our [mailing list](https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ugapprox-sp19) to stay up to date with our meetings and events.
 files: >-
-    [scribe note template](http://localhost:4000/src/approx-sp19/approx-scribe.sty)
+    [scribe note template](/src/approx-sp19/approx-scribe.sty)
 weeks:
   - date: 2/2/2019
     topic: >-
