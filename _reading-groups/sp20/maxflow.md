@@ -15,7 +15,7 @@ weeks:
       Reading group General meeting and preliminary logistics — Soda 380 @ 7:00pm
     
       - Discuss semester long goals, plans for weekly meetings, and unit requirements.
-  - date: 
+  - date: 2/7/2020
     topic: >-
       [CKMST11] presented by Antares &mdash; Soda 373 @ 6:00pm
       
