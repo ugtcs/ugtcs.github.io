@@ -21,7 +21,7 @@ weeks:
 
       - Read section 3 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
 
-      - Round table discussion on _Wednesday 7:00pm @ Soda 373_ will cover experts, electrical flows, and a sketch of the $$\tilde{\mathcal{O}}(\frac{m^{3/2}}{\epsilon^{5/2}})$$ time algorithm.
+      - Round table discussion in _Soda 373 @ Wednesday 2/5 7:00pm_ will cover experts, electrical flows, and a sketch of the $$\tilde{\mathcal{O}}(\frac{m^{3/2}}{\epsilon^{5/2}})$$ time algorithm.
 
     resources:
       Scribe notes coming soon
@@ -31,7 +31,7 @@ weeks:
 
       - Read section 4 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
 
-      - Round table discussion on _Monday 6:30 @ Cory 212_ will sketch the $$\widetilde{\mathcal{O}}(\frac{m^{4/3}}{\epsilon^3})$$ time algorithm.
+      - Round table discussion in _Cory 212 @ Monday 2/10 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(\frac{m^{4/3}}{\epsilon^3})$$ time algorithm.
 ---
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization.
