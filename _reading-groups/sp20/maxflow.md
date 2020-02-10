@@ -2,30 +2,40 @@
 name: Convex Optimization and Maximum Flows
 sem: 2020-2
 layout: reading-group
-location: Soda 373 
-time: Round table discussions each Wednesday at 7:00 pm, and presentations each Friday at 6:00 pm 
+location: Monday Cory 212, Friday Soda 373
+time: Round table discussions each Monday at 6:30 pm, and presentations each Friday at 6:00 pm
 logistics: >-
-    Please join our emailing list [here](https://groups.google.com/d/forum/ugtcs-maxflow-sp20) to stay up to date with current events. 
+    Please join our emailing list [here](https://groups.google.com/d/forum/ugtcs-maxflow-sp20) to stay up to date with current events.
     Fill out this [Google Form](https://forms.gle/D4PKQVwo7RPJc23p8") for course units.
-files: >- 
+files: >-
     [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty)
 weeks:
   - date: 2/3/2020
     topic: >-
       Reading group General meeting and preliminary logistics — Soda 380 @ 7:00pm
-    
+
       - Discuss semester long goals, plans for weekly meetings, and unit requirements.
   - date: 2/7/2020
     topic: >-
-      [CKMST11] presented by Antares &mdash; Soda 373 @ 6:00pm
-      
-      - Read _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
-      
-      - Round table discussion on _Wednesday 7:00pm @ Soda 373_ will cover experts, electrical flows, and other related background.
+      [CKMST11] Part 1 presented by Antares &mdash; Soda 373 @ 6:00pm
+
+      - Read section 3 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
+
+      - Round table discussion on _Wednesday 7:00pm @ Soda 373_ will cover experts, electrical flows, and a sketch of the $$\tilde{\mathcal{O}}(\frac{m^{3/2}}{\epsilon^{5/2}})$$ time algorithm.
+
+    resources:
+      Scribe notes coming soon
+  - date: 2/14/2020
+    topic: >-
+      [CKMST11] Part 2 presented by Albert and Natalie &mdash; Soda 373 @ 6:00pm
+
+      - Read section 4 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
+
+      - Round table discussion on _Monday 6:30 @ Cory 212_ will sketch the $$\widetilde{\mathcal{O}}(\frac{m^{4/3}}{\epsilon^3})$$ time algorithm.
 ---
 
-In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization. 
-One example in which this blend of approaches has been particularly effective is towards algorithms for solving maximum flow problems on graphs. 
+In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization.
+One example in which this blend of approaches has been particularly effective is towards algorithms for solving maximum flow problems on graphs.
 This semester, we will read recent papers related to maxflow and learn about techniques developed in optimization related to analyzing Laplacian linear system solvers, interior point methods, and preconditioner construction.
 
 ### Paper List
