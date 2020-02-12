@@ -14,6 +14,9 @@ weeks:
         Interactive Proofs (IPs), dIP, Graph Non-Isomorphism (GNI), MA/AM
 
         presented by Max &mdash; Thursday 2:00-3:30pm in Soda 405
+
+        - [_Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems_](https://doi.org/10.1145/116825.116852), GMW '91
+        - [_Private coins versus public coins in interactive proof systems_](https://doi.org/10.1145/12130.12137), GS '86
     resources: |
         - [scribe notes](https://github.com/ugtcs/reading-group-notes/blob/master/pcpip/sp20/week-1.pdf)
         - [PCPIP sp2019 lecture 1](https://www.youtube.com/watch?v=-WCvJurvmlM&list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U&index=2&t=0s)
