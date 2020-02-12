@@ -3,7 +3,7 @@ layout: reading-group
 name: Probabilitisically Checkable Proofs & Interactive Proofs
 sem: 2020-2
 files: >- 
-    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty)
+    [scribe note template](/src/pcpip-sp20/pcpip-scribe.sty)
 location: Soda 405
 time: Thursdays 2:00-3:30pm
 logistics: >-
