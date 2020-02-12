@@ -19,7 +19,7 @@ weeks:
     topic: >-
       [CKMST11] Part 1 presented by Antares &mdash; Soda 373 @ 6:00pm
 
-      - Read section 3 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
+      - Read § 3 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
 
       - Round table discussion in _Soda 373 @ Wednesday 2/5 7:00pm_ will cover experts, electrical flows, and a sketch of the $$\tilde{\mathcal{O}}(\frac{m^{3/2}}{\epsilon^{5/2}})$$ time algorithm.
 
@@ -29,9 +29,16 @@ weeks:
     topic: >-
       [CKMST11] Part 2 presented by Albert and Natalie &mdash; Soda 373 @ 6:00pm
 
-      - Read section 4 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
+      - Read § 4 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
 
       - Round table discussion in _Cory 212 @ Monday 2/10 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(\frac{m^{4/3}}{\epsilon^3})$$ time algorithm.
+  - date: 2/21/2020
+    topic: >-
+      [KOSZ13] presented by Josh and Naveen &mdash; Soda 373 @ 6:00pm
+
+      - Read § 2-4, and 6 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
+
+      - Round table discussion in _Cory 212 @ Monday 2/17 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(m \log^2 n \log \log n \log (\frac{n}{\epsilon}))$$ time algorithm for solving SDD linear systems.
 ---
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization.
@@ -40,12 +47,18 @@ This semester, we will read recent papers related to maxflow and learn about tec
 
 ### Paper List
 
+A selection of papers that we may read
+
 - [_Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs_](https://arxiv.org/abs/1010.2921)
   - Paul Christiano, Jonathan A. Kelner, Aleksander M&#261;dry, Daniel A. Spielman, and Shang-Hua Teng
+- [_A simple combinatorial algorithm for solving SDD systems in nearly-linear time_](https://arxiv.org/abs/1301.6628)
+  - Jonathan A. Kelner, Aaron Sidford, Lorenzo Orecchia, and Zeyuan Allen Zhu
 - [_Navigating central path with electrical flows: from flows to matchings, and back_](https://arxiv.org/abs/1307.2205)
   - Aleksander M&#261;dry
 - [_Path finding methods for linear programming: Solving linear programs in $$\mathcal{O}(\sqrt{\text{rank}})$$ iterations and faster algorithms for maximum flows_](https://arxiv.org/abs/1312.6677)
   - Yin Tat Lee and Aaron Sidford
+- [_An almost-linear-time algorithm for approximate max flow in undirected graphs, and its multicommodity generalizations_](https://arxiv.org/abs/1304.2338)
+  - Jonathan A. Kelner, Yin Tat Lee, Lorenzo Orecchia, and Aaron Sidford
 - [_Computing maximum flows with augmenting electrical flows_](https://people.csail.mit.edu/madry/docs/aug_flow.pdf)
   - Aleksander M&#261;dry
 - [_Generalized preconditioning and network flow problems_](https://arxiv.org/abs/1606.07425)
