@@ -11,13 +11,14 @@ logistics: |
 weeks:
   - date: Week 1 (2/10-2/14)
     topic: |
-        Interactive Proofs (IPs), MA/AM, Graph Non-Isomorphism (GNI)
+        Interactive Proofs (IPs), Graph Non-Isomorphism (GNI), MA/AM
 
         presented by Max &mdash; Thursday 2:00-3:30pm in Soda 405
     resources: |
+        - [scribe notes](https://github.com/ugtcs/reading-group-notes/blob/master/pcpip/sp20/week-1.pdf)
         - [PCPIP sp2019 lecture 1](https://www.youtube.com/watch?v=-WCvJurvmlM&list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U&index=2&t=0s)
         - [PCPIP sp2019 lecture 4](https://www.youtube.com/watch?v=Q1K3eOEgxao&list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U&index=4)
-        - [scribe notes](https://github.com/ugtcs/reading-group-notes/blob/master/pcpip/sp20/week-1.pdf)
+        - AB sections 8.1-8.3
   - date: Week 2 (2/17-2/21)
     topic: |
         Zero-Knowledge Proofs
@@ -68,3 +69,4 @@ Over the past 3 decades, one of the biggest advancements in theoretical computer
 - Our reading group will mostly be a subset of Prof. Alessandro Chiesa's fantastic Spring 2019 [PCPIP course](http://people.eecs.berkeley.edu/~alexch/classes/CS294-S2019.html)
   - Full video recordings for the course are available [here](https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U)
 - Prof. Luca Trevisan has a course on PCPs and hardness of approximation [here](https://people.eecs.berkeley.edu/~luca/pcp/)
+- *Computational Complexity* by Arora and Barak has some good introductions to PCPs and IPs. See the [draft](https://theory.cs.princeton.edu/complexity/book.pdf), chapters 8, 18, and 19.
