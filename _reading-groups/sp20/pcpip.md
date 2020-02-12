@@ -10,6 +10,8 @@ logistics: >-
     Please join the #sp20-pcpip channel on Slack for logistics and announcements!
 weeks:
   - date: Week 1 (2/10-2/14)
+    topic: >-
+        
   - date: Week 2 (2/17-2/21)
   - date: Week 3 (2/24-2/28)
   - date: Week 4 (3/2-3/6)
