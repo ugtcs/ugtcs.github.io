@@ -36,7 +36,7 @@ weeks:
     topic: >-
       [KOSZ13] presented by Josh and Naveen &mdash; Soda 373 @ 6:00pm
 
-      - Read § 2-4, and 6 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
+      - Read § 2-4 and 6 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
 
       - Round table discussion in _Cory 212 @ Monday 2/17 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(m \log^2 n \log \log n \log (\frac{n}{\epsilon}))$$ time algorithm for solving SDD linear systems.
 ---
