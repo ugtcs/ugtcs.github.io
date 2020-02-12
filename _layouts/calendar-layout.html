@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>UGTCS</title>
+
+        <link type="text/css" rel="stylesheet" href='/assets/css/style.css'>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/timegrid/main.min.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/bootstrap/main.min.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.css" />
+
+		{% if jekyll.environment == "production" %}
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158024102-1"></script>
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-158024102-1');
+			</script>
+		{% endif %}
+
+	</head>
+
+	<body>
+
+        {% include nav.html %}
+        
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>{{ page.title }}</h1>
+                    <div id="calendar"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/google-calendar/main.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/timegrid/main.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/bootstrap/main.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js"></script>
+
+        <script>
+            // {% if page.hidden_days %}
+                var hiddenDays = "{{ page.hidden_days }}".split(", ").map(function (x) {
+                    return parseInt(x);
+                });
+            // {% endif %}
+
+            // {% if page.maxTime %}
+                var maxTime = "{{ page.maxTime }}";
+            // {% else %}
+                var maxTime = "18:00:00";
+            // {% endif %}
+
+            function dateFormat(d, includeDay) {
+                var o = {
+                    hour: 'numeric',
+                    minute: '2-digit',
+                    meridiem: 'short'
+                };
+                if (includeDay) {
+                    o.weekday = 'short';
+                }
+                return FullCalendar.formatDate(d, o);
+            }
+
+            function initializeCalendar() {
+                var view;
+                var storedView = localStorage.getItem('calendarView');
+                if (storedView) {
+                    view = storedView;
+                } else if ($(window).width() < 768) {
+                    view = 'timeGridDay';
+                } else {
+                    view = 'timeGridWeek';
+                }
+
+                var calendarEl = $('#calendar').get(0);
+                
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                        plugins: ['timeGrid', 'googleCalendar', 'bootstrap', 'list', 'dayGrid'],
+                        // themeSystem: 'bootstrap',
+
+                        header: {
+                            left: 'timeGridDay,timeGridWeek,listWeek',
+                            // center: 'title',
+                            right: 'prev,next'
+                        },
+                        height: 'auto',
+
+                        // {% if page.hidden_days %}
+                            hiddenDays:  hiddenDays,
+                        // {% endif %}
+
+                        // {% if page.range_start %}
+                        validRange: {
+                            start: '{{ page.range_start }}',
+                            end: '{{ page.range_end }}'
+                        },
+                        // {% endif %}
+
+                        nowIndicator: true,
+                        
+                        minTime: "10:00:00",
+                        maxTime: maxTime,
+                        // allDaySlot: false,
+                        defaultView: view,
+
+                        // pull from google calendar
+
+                        googleCalendarApiKey: 'AIzaSyDz81ARPp2FfVXq2Q6MEjEVpRro34G3Qpc',
+                        events: {
+                            googleCalendarId: '{{ page.calendar_id }}',
+                        },
+
+                        viewSkeletonRender: function(info) {
+                            localStorage.setItem('calendarView', info.view.type);
+                        },
+
+                        columnHeaderText: function (date) {
+                            return FullCalendar.formatDate(date, {
+                                weekday: 'short',
+                            }) + ' ' + FullCalendar.formatDate(date, {
+                                day: 'numeric',
+                                month: 'numeric',
+                            });
+                        },
+
+                        eventRender: function(info) {
+                            var event = info.event;
+                            var element = $(info.el);
+                            var inList = element.is("tr");
+                            if (event.allDay) {
+                                var content = FullCalendar.formatDate(event.start, {weekday: 'short'});
+                            } else {
+                                var content = dateFormat(event.start, true) + ' - ' + dateFormat(event.end, false);
+                            }
+                            var location = event.extendedProps.location;
+                            if (location) {
+                                var location_info = " @ " + location;
+                                element.find(".fc-content").append(location);
+                                element.find(".fc-list-item-title a").append(location_info);
+                                content = content + location_info;
+                            }
+                            if (event.title == 'Lecture') {
+                                element.addClass('lecture-event');
+                            }
+                            if (event.title.includes('Homework Party')) {
+                                element.addClass('homework-party-event');
+                            }
+                            if (event.title.includes('Prof.') || event.title.includes('Professor ')) {
+                                element.addClass('prof-oh-event');
+                            }
+                            if (event.title.includes('Project')) {
+                                element.addClass('proj-oh-event');
+                            }
+                            if (event.title.includes('Final') || event.title.includes('Midterm')) {
+                                element.addClass('exam-event');
+                            }
+                            if (!inList) {
+                                element.popover({
+                                    title: event.title,
+                                    content: content,
+                                    trigger: 'hover',
+                                    placement: 'left',
+                                    container: 'body'
+                                });
+                            }
+                        }
+                    });
+                
+                calendar.render();
+
+            }
+
+            $(initializeCalendar);
+        </script>
+
+		{% include footer.html %}
+
+	</body>
+</html>
+
+
