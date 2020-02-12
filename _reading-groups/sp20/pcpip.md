@@ -11,7 +11,7 @@ logistics: |
 weeks:
   - date: Week 1 (2/10-2/14)
     topic: |
-        Interactive Proofs (IPs), Graph Non-Isomorphism (GNI), MA/AM
+        Interactive Proofs (IPs), dIP, Graph Non-Isomorphism (GNI), MA/AM
 
         presented by Max &mdash; Thursday 2:00-3:30pm in Soda 405
     resources: |
