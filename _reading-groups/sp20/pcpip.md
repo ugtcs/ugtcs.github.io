@@ -17,6 +17,7 @@ weeks:
     resources: |
         - [PCPIP sp2019 lecture 1](https://www.youtube.com/watch?v=-WCvJurvmlM&list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U&index=2&t=0s)
         - [PCPIP sp2019 lecture 4](https://www.youtube.com/watch?v=Q1K3eOEgxao&list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U&index=4)
+        - [scribe notes](https://github.com/ugtcs/reading-group-notes/blob/master/pcpip/sp20/week-1.pdf)
   - date: Week 2 (2/17-2/21)
     topic: |
         Zero-Knowledge Proofs
