@@ -3,7 +3,7 @@ layout: reading-group
 name: Probabilistically Checkable Proofs & Interactive Proofs
 sem: 2020-2
 files: | 
-    [scribe note repository](https://github.com/ugtcs/sp20-pcpip)
+    [scribe note repository](https://github.com/ugtcs/reading-group-notes/tree/master/pcpip/sp20)
 location: Soda 405
 time: Thursdays 2:00-3:30pm
 logistics: |
