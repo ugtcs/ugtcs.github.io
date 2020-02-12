@@ -26,16 +26,16 @@ layout: page
     <thead>
         <tr class="row">
         <th align="left" class="col-sm-2">Date</th>
-        <th align="left" class="col-sm-8">Topic</th>
-        <th align="left" class="col-sm-2">Resources</th>
+        <th align="left" class="col-sm-7">Topic</th>
+        <th align="left" class="col-sm-3">Resources</th>
         </tr>
     </thead>
     <tbody>
         {% for week in page.weeks %}
         <tr class="row">
             <td class="col-sm-2">{{ week.date }}</td>
-            <td class="col-sm-8"> {{ week.topic | markdownify }} </td>
-            <td class="col-sm-2">
+            <td class="col-sm-7"> {{ week.topic | markdownify }} </td>
+            <td class="col-sm-3">
                 {{ week.resources | markdownify }}
             </td>
         </tr>
