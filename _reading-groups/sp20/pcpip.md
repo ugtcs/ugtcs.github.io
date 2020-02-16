@@ -24,10 +24,10 @@ weeks:
         - AB sections 8.1-8.3
   - date: Week 2 (2/17-2/21)
     topic: |
-        Zero-Knowledge Proofs
+        Some Nice Containments: $$\mathsf{coNP} \subseteq \mathsf{IP}, \mathsf{IP} = \mathsf{PSPACE}$$
   - date: Week 3 (2/24-2/28)
     topic: |
-        Some Nice Containments: $$\mathsf{coNP} \subseteq \mathsf{IP}, \mathsf{IP} = \mathsf{PSPACE}$$
+        Zero-Knowledge Proofs
   - date: Week 4 (3/2-3/6)
     topic: |
         __Breather week__. 
@@ -37,7 +37,7 @@ weeks:
         Set Lower Bounds, GNI, public coins
   - date: Week 6 (3/16-3/20)
     topic: |
-        Special Topic. QIP?
+        Introduction to PCPs
         
   - date: Week 7 (3/23-3/27)
     topic: |
@@ -59,8 +59,10 @@ weeks:
         
   - date: Week 12 (4/27-5/1)
     topic: |
-        Special Topic. IOPs, SNARKs?
-  - date: Week 13 (5/4-4/8)
+        Special Topic. IOPs, SNARKs, Quantum?
+
+        Q U A N T U M. If quantum interaction can occur within the proof, can we make our proofs stronger?
+  - date: Week 13 (5/4-5/8)
     topic: |
         __RRR week__. Likely nothing planned, good luck with finals!
 ---
@@ -73,3 +75,5 @@ Over the past 3 decades, one of the biggest advancements in theoretical computer
   - Full video recordings for the course are available [here](https://www.youtube.com/playlist?list=PLkFD6_40KJIyWWtxCPBHwGsrutjvwM5_U)
 - Prof. Luca Trevisan has a course on PCPs and hardness of approximation [here](https://people.eecs.berkeley.edu/~luca/pcp/)
 - *Computational Complexity* by Arora and Barak has some good introductions to PCPs and IPs. See the [draft](https://theory.cs.princeton.edu/complexity/book.pdf), chapters 8, 18, and 19.
+- There was a Simons Fall 2019 bootcamp on [Probabilistically Checkable Proofs](https://simons.berkeley.edu/workshops/schedule/9299). The lectures by Justin Thaler, Prahladh Harsha, and Alessandro Chiesa are most relevant.
+
