@@ -32,13 +32,20 @@ weeks:
       - Read § 4 of _[Electrical flows, laplacian systems, and faster approximation of maximum flow in undirected graphs](https://arxiv.org/abs/1010.2921)_
 
       - Round table discussion in _Cory 212 @ Monday 2/10 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(\frac{m^{4/3}}{\epsilon^3})$$ time algorithm.
+    resources:
+      Scribe notes coming soon
   - date: 2/21/2020
+    topic: >-
+      Maxflow noting and coding workday  &mdash; Soda 373 @ 6:00pm
+
+      - No round table discussion this week; we'll be coding and writing scribe notes for CKMST on Friday.
+  - date: 2/28/2020
     topic: >-
       [KOSZ13] presented by Josh and Naveen &mdash; Soda 373 @ 6:00pm
 
       - Read § 2-4 and 6 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
 
-      - Round table discussion in _Cory 212 @ Monday 2/17 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(m \log^2 n \log \log n \log (\frac{n}{\epsilon}))$$ time algorithm for solving SDD linear systems.
+      - Round table discussion in _Cory 212 @ Monday 2/24 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(m \log^2 n \log \log n \log (\frac{n}{\epsilon}))$$ time algorithm for solving SDD linear systems.
 ---
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization.
