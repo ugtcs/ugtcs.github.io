@@ -2,7 +2,7 @@
 name: Convex Optimization and Maximum Flows
 sem: 2020-2
 layout: reading-group
-location: Monday Cory 212, Friday Soda 373
+location: See update
 time: Round table discussions each Monday at 6:30 pm, and presentations each Friday at 6:00 pm
 logistics: >-
     Please join our emailing list [here](https://groups.google.com/d/forum/ugtcs-maxflow-sp20) to stay up to date with current events.
@@ -41,12 +41,38 @@ weeks:
       - No round table discussion this week; we'll be coding and writing scribe notes for CKMST on Friday.
   - date: 2/28/2020
     topic: >-
-      [KOSZ13] presented by Josh and Naveen &mdash; Soda 373 @ 6:00pm
+      [KOSZ13] Part 1 presented by Josh and Naveen &mdash; Soda 373 @ 6:00pm
 
       - Read § 2-4 and 6 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
 
       - Round table discussion in _Cory 212 @ Monday 2/24 6:30pm_ will sketch the $$\widetilde{\mathcal{O}}(m \log^2 n \log \log n \log (\frac{n}{\epsilon}))$$ time algorithm for solving SDD linear systems.
+    resources:
+      Scribe notes coming soon
+  - date: 3/6/2020
+    topic: >-
+      [KOSZ13] Part 2 presented by Robert &mdash; Soda 373 @ 6:00pm
+
+      - Read § 6, 9, 10 of _[A simple, combinatorial, algorithm for solving SDD systems in nearly-linear time](https://arxiv.org/abs/1301.6628)_
+
+      - Round table discussion in _Cory 212 @ Monday 3/2 6:30pm_ will sketch the geometric intuition for the KOSZ algorithm.
+    resources:
+      Scribe notes coming soon
+  - date: 3/13/2020
+    topic: >-
+      Campus Recommendation to Move to Online Meetings due to COVID-19 &mdash; no meeting
+
+      - Please stay safe and wash your hands!
+  - date: 3/19/2020
+    topic: >-
+      [Sherman13] presented by Prof. Rao &mdash; Zoom @ 4:00pm <span style="color:red">**Thursday 3/19**</span>
+
+      - Read _[Nearly Maximum Flows in Nearly Linear Time](https://arxiv.org/abs/1304.2077)_
+
+      - Link to the webcast will be available before the meeting.
+
 ---
+
+<span style="color:red">**Update on 3/13/2020 - due to recent developments regarding the transmission of COVID-19, we will be moving our meetings to an online video conferencing service. More details regarding how you can connect will be available soon. Please stay safe and wash your hands!**</span>
 
 In the past decade, major advancements in the design and analysis of algorithms have risen from a confluence of techniques developed in continuous and discrete optimization.
 One example in which this blend of approaches has been particularly effective is towards algorithms for solving maximum flow problems on graphs.
