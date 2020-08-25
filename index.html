@@ -20,13 +20,24 @@ layout: default
     <div class="col">
       <h2 class="mt-0">About Us</h2>
       <p>Berkeley is one of the cradles of theoretical computer science, a subject of study at the intersection of computer science and mathematics.
-        The <code></code><b>U</b>nder<b>g</b>raduate <b>T</b>heory of <b>C</b>omputer <b>S</b>cience (<b>UGTCS</b>) club at Berkeley is a broader community for students of all interests and backgrounds 
+        The <code></code><b>U</b>nder<b>g</b>raduate <b>T</b>heoretical <b>C</b>omputer <b>S</b>cience at Berkeley (<b>UGTCS</b>) is a broader community for students of all interests and backgrounds 
         to learn and get involved in this beautiful subject.
       </p>
-      <p>Through social events, study groups, talks, seminars, and annual decals, we explore the mathematical foundations of CS as well as its intrinsic connections other studies: economics through computational game theory and mechanism design, physics through random structures and quantum computing, biology, and mathematics.
+      <p>Through social events, study groups, reading groups, seminars, and panels, we explore the mathematical foundations of CS as well as its intrinsic connections other studies: economics through computational game theory and mechanism design, physics through random structures and quantum computing, biology, and mathematics.
         We make our events not only educational and enlightening, but also approachable and fun.</p>
     </div>
   </div>
+
+  <div class="row my-3">
+    <div class="col-sm">
+      <h2>Latest Post from the UGTCS Blog</h2>
+      {% for post in site.posts limit: 1 %}
+        {% include post-link.html post=post %}
+      {% endfor %}
+      <br>
+    </div>
+  </div>
+
   <div class="row my-3">
     <div class="col">
       <h2>Offerings</h2>
@@ -100,17 +111,7 @@ layout: default
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
-  <div class="row my-3">
-    <div class="col-sm">
-      <h2>Latest Post from the UGTCS Blog</h2>
-      {% for post in site.posts limit: 1 %}
-        {% include post-link.html post=post %}
-      {% endfor %}
-      <br>
-    </div>
-  </div>
+
 </div>
