@@ -1,13 +1,12 @@
 ---
 layout: page
-title: People
+title: Alumni
 ---
-<h1>People</h1>
-<p>Below are our lovely officers and distinguished members. An (incomplete but computable) list of former officers is <a href="alum.html">here</a>.</p>
+<h1>Alumni/Former Officers</h1>
 <table class="table members-table">
   <tr class="row">
-      {% assign current = site.members | where_exp:'member','member.status' %}
-      {% for member in current %}
+      {% assign exec = site.members | where_exp:'member','member.order' | sort:'order' %}
+      {% for member in exec %}
           <td class="col-sm-4 members-cell">
               <img class="members-image" src="{{ member.img }}">
           <div class="members-name">{{ member.name }}</div>
@@ -16,11 +15,6 @@ title: People
           <div class="members-description">{{ member.description }}</div>
           </td>
       {% endfor %}
-  </tr>
-</table>
-<h1>Alumni/Former Officers</h1>
-<table class="table alumni-table">
-  <tr class="row">
       {% for member in site.members %}
           {% unless member.order %}
           <td class="col-sm-4 members-cell">
