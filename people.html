@@ -6,7 +6,7 @@ title: People
 <p>Below are our lovely officers and distinguished members. An (incomplete but computable) list of former officers is <a href="../alum.html">here</a>.</p>
 <table class="table members-table">
   <tr class="row">
-      {% assign exec = site.members | sort: 'order' | where_exp:'member',"member.status contains 'active'" %}
+      {% assign exec = site.members | sort: 'order' | where:'member.status','active' %}
       {% for member in exec %}
           <td class="col-sm-4 members-cell">
               <img class="members-image" src="{{ member.img }}">
