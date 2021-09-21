@@ -21,9 +21,9 @@ title: People
 <h1>Alumni/Former Officers</h1>
 <table class="table alumni-table">
   <tr class="row">
-      {% assign current = site.members | where_exp:'member','member.status' %}
+      <!-- {% assign current = site.members | where_exp:'member','member.status' %} -->
       {% for member in site.members %}
-          {% unless current %}
+          {% unless member.status == 'current' %}
           <td class="col-sm-4 members-cell">
               <img class="members-image" src="{{ member.img }}">
               <div class="members-name">{{ member.name }}</div>
