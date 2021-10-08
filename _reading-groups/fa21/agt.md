@@ -17,7 +17,7 @@ weeks:
 
         *   [Week 1](http://timroughgarden.org/f13/l/l1.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/AGTWeek1.pdf) 
+        [fa19 notes](/src/agt-fa19/AGTWeek1.pdf) 
 
   - date: Week 2 (9/27)
     topic: >-
@@ -27,7 +27,7 @@ weeks:
   
         *   [Week 3](http://timroughgarden.org/f13/l/l3.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/scribe2.pdf) 
+        [fa19 notes](/src/agt-fa19/scribe2.pdf) 
 
   - date: Week 3 (10/4)
     topic: >-
@@ -37,7 +37,8 @@ weeks:
         
         *   [Week 5](http://timroughgarden.org/f13/l/l5.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/Week_3__Knapsack_Auctions_and_Welfare_Maximization__agt_f19_.pdf) 
+        [scribe notes](/src/agt-fa21/AGT_scribe_week_3.pdf)
+        [fa19 notes](/src/agt-fa19/Week_3__Knapsack_Auctions_and_Welfare_Maximization__agt_f19_.pdf)
 
   - date: Week 4 (10/11)
     topic: >-
@@ -47,7 +48,7 @@ weeks:
         *   [Week 4](http://timroughgarden.org/f13/l/l4.pdf) of Roughgarden’s AGT.
 
     resources: >- 
-        [notes](/src/agt_fa19/Week_4_Prophet_Inequality.pdf) 
+        [fa19 notes](/src/agt-fa19/Week_4_Prophet_Inequality.pdf) 
 
   - date: Week 5 (10/18)
     topic: >-
