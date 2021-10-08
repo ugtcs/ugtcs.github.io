@@ -52,6 +52,7 @@ weeks:
   - date: Week 5 (10/18)
     topic: >-
         Prophet Inequality. How close can we get in sequential auctions to oracle optimality? Discuss interesting single-item auctions with Prophet Inequality, and introduce Bulow-Klemperer. Multi-parameter Mechanism Design, and VCG Mechanism. Can we find desirable auctions when demand is multi-parametered? Using VCG, we look at Combinatorial Auctions. Find interesting problems from psets online to discuss.
+        
         *   [Week 6](http://timroughgarden.org/f13/l/l6.pdf) of Roughgarden’s AGT.
 
         *   [Week 7](http://timroughgarden.org/f13/l/l7.pdf) of Roughgarden’s AGT.
