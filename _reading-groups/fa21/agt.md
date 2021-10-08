@@ -31,7 +31,7 @@ weeks:
 
   - date: Week 3 (10/4)
     topic: >-
-        Finish Myerson's lemma, knapsack auctions, and the revelation principle.
+        Finish Myerson's lemma. Discuss knapsack auctions and the revelation principle.
   
         *   [Week 3](http://timroughgarden.org/f13/l/l3.pdf) of Roughgarden’s AGT.
         
