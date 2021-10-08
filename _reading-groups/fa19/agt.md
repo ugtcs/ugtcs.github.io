@@ -17,7 +17,7 @@ weeks:
 
         *   [Week 1](http://timroughgarden.org/f13/l/l1.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/AGTWeek1.pdf) 
+        [notes](/src/agt-fa19/AGTWeek1.pdf) 
 
   - date: Week 2 (9/24)
     topic: >-
@@ -27,7 +27,7 @@ weeks:
   
         *   [Week 3](http://timroughgarden.org/f13/l/l3.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/scribe2.pdf) 
+        [notes](/src/agt-fa19/scribe2.pdf) 
 
   - date: Week 3 (10/1)
     topic: >-
@@ -35,11 +35,11 @@ weeks:
         Briefly discuss the difference between revenue maximization and welfare maximization, then talk about the revelation principle. 
         Finally, find a formula relating revenue to welfare.
 
-        *   [Week 4](http://timro ughgarden.org/f13/l/l4.pdf) of Roughgarden’s AGT (briefly).
+        *   [Week 4](http://timroughgarden.org/f13/l/l4.pdf) of Roughgarden’s AGT (briefly).
         
         *   [Week 5](http://timroughgarden.org/f13/l/l5.pdf) of Roughgarden’s AGT.
     resources: >-
-        [notes](/src/agt_fa19/Week_3__Knapsack_Auctions_and_Welfare_Maximization__agt_f19_.pdf) 
+        [notes](/src/agt-fa19/Week_3__Knapsack_Auctions_and_Welfare_Maximization__agt_f19_.pdf) 
 
   - date: Week 4 (10/8)
     topic: >-
@@ -47,7 +47,7 @@ weeks:
 
         *   [Week 6](http://timroughgarden.org/f13/l/l6.pdf) of Roughgarden’s AGT.
     resources: >- 
-        [notes](/src/agt_fa19/Week_4_Prophet_Inequality.pdf) 
+        [notes](/src/agt-fa19/Week_4_Prophet_Inequality.pdf) 
 
   - date: Week 5 (10/15)
     topic: >-
