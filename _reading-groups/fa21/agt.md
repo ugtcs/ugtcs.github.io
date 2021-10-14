@@ -6,9 +6,9 @@ location: Cory 400
 time: 20:00 - 21:00
 logistics: >-
     Please fill out our interest form 
-    [here](https://tinyurl.com/ugtcsinterestform) if you would like to join this reading group
+    [here](https://tinyurl.com/ugtcsinterestform) to join this reading group
 files: >- 
-    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty)
+    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [reading group recordings (wow!)](https://drive.google.com/drive/u/2/folders/1-HxErtcXcr93m-j3_ggn2k1G93QAQIF1)
 weeks:
 
   - date: Week 1 (9/20)
