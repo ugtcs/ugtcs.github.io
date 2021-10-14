@@ -8,7 +8,7 @@ logistics: >-
     Please fill out our interest form 
     [here](https://tinyurl.com/ugtcsinterestform) to join this reading group
 files: >- 
-    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [reading group recordings (wow!)](https://drive.google.com/drive/u/2/folders/1-HxErtcXcr93m-j3_ggn2k1G93QAQIF1)
+    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [reading group recordings (wow!)](https://drive.google.com/drive/folders/1-HxErtcXcr93m-j3_ggn2k1G93QAQIF1?usp=sharing)
 weeks:
 
   - date: Week 1 (9/20)
