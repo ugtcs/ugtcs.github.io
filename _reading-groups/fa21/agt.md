@@ -60,6 +60,9 @@ weeks:
         
         *   [Week 8](http://timroughgarden.org/f13/l/l8.pdf) of Roughgarden’s AGT.
 
+    resources: >- 
+        [Recap notes](/src/agt-fa21/ugtcs-recap_notes.pdf) 
+
   - date: Week 6 (10/25)
     topic: >-
         Mechanism Design in non-monetary settings: school choice, kidney exchange, stable matching, etc. Briefly, we discuss the Clinching Auction.
