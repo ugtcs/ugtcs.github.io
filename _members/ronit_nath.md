@@ -1,6 +1,6 @@
 ---
 name: Ronit Nath (he/him)
-role: IRL IMessager in Chief (Communications/Social Chair)
+role: Marketing Co-Chair
 email: ronitnath (at) berkeley.edu
 description: Class of 2024 CS & MCB, humanity shall have cities among the stars, and we're going to build them.
 img: /assets/img/members/member-ronitnath-1.png
