@@ -17,7 +17,7 @@ weeks:
 
       Basic cryptographic primitives and the relation between them (Part 1 aka CS161 Crypto Module Crash Course): Encryption / Authentication : Symmetric / Asymmetric. Commitments. Basic cryptographic primitives and the relation between them (Part 2):  Lecture 1 cont. OWF => PRG => PRF if we have time.
 
-      * [CS 161 Textbook](https://textbook.cs161.org/crypto/) chapters 5-12 except for chapter 10
+      *   [CS 161 Textbook](https://textbook.cs161.org/crypto/) chapters 5-12 except for chapter 10
   
   - date: Week 2 (2/14)
     topic: >-
@@ -25,7 +25,7 @@ weeks:
 
       Updating proofs for the computer age! Plus: how to prove something without giving away any knowledge
 
-      * [Lecture 8](https://crypto.stanford.edu/cs355/21sp/lec8.pdf)
+      *   [Lecture 8](https://crypto.stanford.edu/cs355/21sp/lec8.pdf)
   
   - date: Week 3 (2/21)
     topic: >-
@@ -33,7 +33,7 @@ weeks:
 
       Making zero-knowledge proofs efficient. What is the role of interactivity and randomness in proof?
 
-      * [Lecture 11](https://crypto.stanford.edu/cs355/21sp/lec11.pdf)
+      *   [Lecture 11](https://crypto.stanford.edu/cs355/21sp/lec11.pdf)
   
   - date: Week 4 (2/28)
     topic: >-
@@ -47,7 +47,7 @@ weeks:
 
       How to compute functions on two secret inputs without revealing anything but their output. How to request information without revealing what you requested.
 
-      * [Lecture 13](https://crypto.stanford.edu/cs355/21sp/lec13.pdf)
+      *   [Lecture 13](https://crypto.stanford.edu/cs355/21sp/lec13.pdf)
   
   - date: Week 6 (3/14)
     topic: >-
@@ -55,7 +55,7 @@ weeks:
 
       Splitting up secrets among people so people can only recover them by pooling their information.
 
-      * [Lecture 14](https://crypto.stanford.edu/cs355/21sp/lec14.pdf)
+      *   [Lecture 14](https://crypto.stanford.edu/cs355/21sp/lec14.pdf)
   
   - date: Week 7 (3/28)
     topic: >-
@@ -63,7 +63,7 @@ weeks:
 
       Two-party computation, but with more parties!
 
-      * [Lecture 15](https://crypto.stanford.edu/cs355/21sp/lec15.pdf)
+      *   [Lecture 15](https://crypto.stanford.edu/cs355/21sp/lec15.pdf)
   
   - date: Week 8 (4/4)
     topic: >-
@@ -71,7 +71,7 @@ weeks:
 
       How to aggregate data without leaking individuals' information.
 
-      * [Lecture 16](https://crypto.stanford.edu/cs355/21sp/lec16.pdf)
+      *   [Lecture 16](https://crypto.stanford.edu/cs355/21sp/lec16.pdf)
   
   - date: Week 9 (4/11)
     topic: >-
@@ -83,7 +83,7 @@ weeks:
 
       How do I create a database such that no one knows what data I have retrieved from the database?
 
-      * [Lecture 17](https://crypto.stanford.edu/cs355/21sp/lec17.pdf)
+      *   [Lecture 17](https://crypto.stanford.edu/cs355/21sp/lec17.pdf)
   
   - date: Week 11 (4/25)
     topic: >-
@@ -91,7 +91,7 @@ weeks:
 
       Enc(f(x))=f(Enc(x)) for all x and polynomials f, yuh
 
-      * [Lecture 19](https://crypto.stanford.edu/cs355/21sp/lec19.pdf )
+      *   [Lecture 19](https://crypto.stanford.edu/cs355/21sp/lec19.pdf )
 ---
 
 ⚠️ Description under construction ⚠️  ️
