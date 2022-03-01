@@ -3,7 +3,7 @@ layout: reading-group
 name: Special Topics in Cryptography
 sem: 2022-2
 location: Cory 540AB most days, Cory 531 on March 2 and March 9
-time: 18:30 - 20:00
+time: Wednesdays 18:30 - 20:00
 logistics: >-
     Please fill out our interest form 
     [here](https://docs.google.com/forms/d/e/1FAIpQLScT9Z22QgcxRjRhNR6bRUvVbK9QGgRKL0WfLcwEVu4oIXrLNA/viewform) to join this reading group
@@ -15,9 +15,13 @@ weeks:
     topic: >-
         Intro to Cryptography
 
-        Basic cryptographic primitives and the relation between them (Part 1 aka CS161 Crypto Module Crash Course): Encryption / Authentication : Symmetric / Asymmetric. Commitments. Basic cryptographic primitives and the relation between them (Part 2):  Lecture 1 cont. OWF => PRG => PRF if we have time.
+        Basic cryptographic primitives and the relation between them
+        
+        (Part 1 aka CS161 Crypto Module Crash Course): Encryption / Authentication : Symmetric / Asymmetric. Commitments. Basic cryptographic primitives and the relation between them
+        
+        (Part 2):  Lecture 1 cont. OWF => PRG => PRF if we have time.
     recources: >-
-        *   [CS 161 Textbook](https://textbook.cs161.org/crypto/) chapters 5-12 except for chapter 10
+        *   [CS 161 Textbook Ch 5-12](https://textbook.cs161.org/crypto/)
   
   - date: Week 2 (2/14)
     topic: >-
