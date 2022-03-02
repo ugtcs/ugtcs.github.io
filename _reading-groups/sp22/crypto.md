@@ -8,7 +8,7 @@ logistics: >-
     Please fill out our interest form 
     [here](https://docs.google.com/forms/d/e/1FAIpQLScT9Z22QgcxRjRhNR6bRUvVbK9QGgRKL0WfLcwEVu4oIXrLNA/viewform) to join this reading group
 files: >- 
-    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [reading group recordings (coming soon)](https://drive.google.com/drive/u/1/folders/14DkB_s1pBs5ta5ciFTtwFpTQj53Bqr5H)
+    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [reading group recordings](https://drive.google.com/drive/u/1/folders/14DkB_s1pBs5ta5ciFTtwFpTQj53Bqr5H)
 weeks:
 
   - date: Week 1 (2/7)
@@ -21,7 +21,7 @@ weeks:
         
         *   (Part 2):  Lecture 1 cont. OWF => PRG => PRF if we have time.
     recources: >-
-        *   [CS 161 Textbook Ch 5-12](https://textbook.cs161.org/crypto/)
+        *   [CS 161 Textbook](https://textbook.cs161.org/crypto)
   
   - date: Week 2 (2/14)
     topic: >-
