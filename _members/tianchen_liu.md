@@ -1,6 +1,6 @@
 ---
 name: Tianchen Liu (he/him)
-role: Reading Group Coordinator
+role: Interactive Prover
 email: tianchenliu (at) berkeley.edu
 description: ⚠️ Bio under construction ⚠
 img: /assets/img/members/member-tianchenliu-1.jpg
