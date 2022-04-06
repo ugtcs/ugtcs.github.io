@@ -71,15 +71,15 @@ weeks:
   
   - date: Week 8 (4/4)
     topic: >-
+        BUFFER WEEK
+
+  - date: Week 9 (4/11)
+    topic: >-
         Differential privacy
 
         *   How to aggregate data without leaking individuals' information.
     resources: >-
         *   [Lecture 16](https://crypto.stanford.edu/cs355/21sp/lec16.pdf)
-  
-  - date: Week 9 (4/11)
-    topic: >-
-        BUFFER WEEK
   
   - date: Week 10 (4/18)
     topic: >-
