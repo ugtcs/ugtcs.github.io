@@ -8,7 +8,7 @@ logistics: >-
     Please fill out our interest form 
     [here](https://docs.google.com/forms/d/e/1FAIpQLScT9Z22QgcxRjRhNR6bRUvVbK9QGgRKL0WfLcwEVu4oIXrLNA/viewform) to join this reading group
 files: >- 
-    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [recordings and scribe notes](https://drive.google.com/drive/u/1/folders/14DkB_s1pBs5ta5ciFTtwFpTQj53Bqr5H)
+    [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [recordings and scribe notes](https://drive.google.com/drive/u/1/folders/14DkB_s1pBs5ta5ciFTtwFpTQj53Bqr5H), [sign up sheet](https://docs.google.com/spreadsheets/d/1t32YDkPZg5je1lZJ5TZ8uR6ipmFX1oErkMOcIsS9oIk)
 weeks:
 
   - date: Week 1 (2/7)
