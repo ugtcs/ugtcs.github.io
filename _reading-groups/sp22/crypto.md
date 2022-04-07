@@ -11,7 +11,7 @@ files: >-
     [scribe note template](/src/maxflow-sp20/maxflow-scribe.sty), [recordings and scribe notes](https://drive.google.com/drive/u/1/folders/14DkB_s1pBs5ta5ciFTtwFpTQj53Bqr5H), [sign up sheet](https://docs.google.com/spreadsheets/d/1t32YDkPZg5je1lZJ5TZ8uR6ipmFX1oErkMOcIsS9oIk)
 weeks:
 
-  - date: Week 1 (2/7)
+  - date: Week 1 (2/9)
     topic: >-
         Intro to Cryptography
 
@@ -23,7 +23,7 @@ weeks:
     recources: >-
         *   [CS 161 Textbook](https://textbook.cs161.org/crypto)
   
-  - date: Week 2 (2/14)
+  - date: Week 2 (2/16)
     topic: >-
         Interactive proofs, Zero knowledge
 
@@ -31,7 +31,7 @@ weeks:
     recources: >-
         *   [Lecture 8](https://crypto.stanford.edu/cs355/21sp/lec8.pdf)
   
-  - date: Week 3 (2/21)
+  - date: Week 3 (2/23)
     topic: >-
         Succinct Non-interactive Arguments (SNARGs) from PCPs, Polynomial commitments
 
@@ -39,13 +39,13 @@ weeks:
     resources: >-
         *   [Lecture 11](https://crypto.stanford.edu/cs355/21sp/lec11.pdf)
   
-  - date: Week 4 (2/28)
+  - date: Week 4 (3/2)
     topic: >-
         BUFFER WEEK (discrete log if time)
 
         *   Discrete log: a problem whose hardness many cryptographic primitives depend on.
   
-  - date: Week 5 (3/7)
+  - date: Week 5 (3/9)
     topic: >-
         Oblivious transfer, Two-party computation: Yao's garbled circuits
 
@@ -53,7 +53,7 @@ weeks:
     resources: >-
       *   [Lecture 13](https://crypto.stanford.edu/cs355/21sp/lec13.pdf)
   
-  - date: Week 6 (3/14)
+  - date: Week 6 (3/16)
     topic: >-
         Secret sharing
 
@@ -61,7 +61,7 @@ weeks:
     resources: >-
         *   [Lecture 14](https://crypto.stanford.edu/cs355/21sp/lec14.pdf)
   
-  - date: Week 7 (3/28)
+  - date: Week 7 (3/30)
     topic: >-
         Multi-party Computation
 
@@ -69,11 +69,11 @@ weeks:
     resources: >-
         *   [Lecture 15](https://crypto.stanford.edu/cs355/21sp/lec15.pdf)
   
-  - date: Week 8 (4/4)
+  - date: Week 8 (4/6)
     topic: >-
         BUFFER WEEK
 
-  - date: Week 9 (4/11)
+  - date: Week 9 (4/13)
     topic: >-
         Differential privacy
 
@@ -81,7 +81,7 @@ weeks:
     resources: >-
         *   [Lecture 16](https://crypto.stanford.edu/cs355/21sp/lec16.pdf)
   
-  - date: Week 10 (4/18)
+  - date: Week 10 (4/20)
     topic: >-
         Private Information Retrieval
 
@@ -89,7 +89,7 @@ weeks:
     resources: >-
         *   [Lecture 17](https://crypto.stanford.edu/cs355/21sp/lec17.pdf)
   
-  - date: Week 11 (4/25)
+  - date: Week 11 (4/27)
     topic: >-
         Fully homomorphic encryption (LWE)
 
