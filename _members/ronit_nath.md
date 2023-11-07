@@ -1,9 +1,9 @@
 ---
 name: Ronit Nath (he/him)
-role: Marketing Co-Chair
+role: President
 email: ronitnath (at) berkeley.edu
-description: Class of 2024 CS & Philosophy, humanity shall have cities among the stars, and we're going to build them.
+description: We hope for theory to inform practice. In practice, we hope for more theory.
 img: /assets/img/members/member-ronitnath-1.png
 status: current
-order: 7
+order: 1
 ---
