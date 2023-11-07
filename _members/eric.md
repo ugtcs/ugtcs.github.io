@@ -1,5 +1,5 @@
 ---
-name: Aditya
+name: Eric
 role: Reading Group Deputy
 email: coming_soon [at] berkeley.edu
 description: Urna nunc id cursus metus aliquam eleifend mi in. Faucibus interdum posuere lorem ipsum. Quis commodo odio aenean sed adipiscing diam. Amet purus gravida quis blandit.
