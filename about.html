@@ -19,7 +19,7 @@ permalink: /about/
         <div class="col-sm">
           <h4>Meet our Members</h4>
           <table class="table members-table">
-            <tr class="row">
+            {# <tr class="row">
               <td class="col-sm-4 members-cell">
                 <img class="members-image" src="/assets/img/members/member-jonathan-1.png">
                 <div class="members-name">Jonathan Liu</div>
@@ -42,7 +42,7 @@ permalink: /about/
                 <div class="members-description">Do you ever stare at your toaster and wonder, "why ducks?"</div>
               </td>
             </tr>
-            <tr class="row">
+            <tr class="row"> #}
 				{% for member in site.members %}
               <td class="col-sm-4 members-cell">
 				  <img class="members-image" src="{{ member.img }}">
