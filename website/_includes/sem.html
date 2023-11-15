@@ -1,0 +1,9 @@
+{% assign sem_parts = include.sem | split: '-' %}
+{% assign sem_code = sem_parts[1] %}
+{% case sem_parts[1] %}
+    {% when '1' %}Winter
+    {% when '2' %}Spring
+    {% when '3' %}Summer
+    {% when '4' %}Fall
+{% endcase %}
+{{ sem_parts[0] }}

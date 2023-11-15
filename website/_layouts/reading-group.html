@@ -1,0 +1,44 @@
+---
+layout: page
+---
+
+<h1>{% include sem.html sem=page.sem %} &mdash; {{ page.name }}</h1>
+
+<div class="card mb-3">
+    <div class="card-body">
+        {% if page.location %}
+            <p class='card-text mb-0'><strong>Location:</strong> {{page.location | markdownify | remove: '<p>' | remove: '</p>'}} </p>
+        {% endif %}
+        {% if page.time %}
+            <p class='card-text mb-0'><strong>Time:</strong> {{page.time | markdownify | remove: '<p>' | remove: '</p>'}} </p>
+        {% endif %}
+        {% if page.logistics %}
+            <p class='card-text mb-0'><strong>Logistics:</strong> {{page.logistics | markdownify | remove: '<p>' | remove: '</p>'}} </p>
+        {% endif %}
+        {% if page.files %}
+            <p class='card-text mb-0'><strong>Files:</strong> {{page.files | markdownify | remove: '<p>' | remove: '</p>'}} </p>
+        {% endif %}
+    </div>
+</div>
+{{ content }}
+
+<table class="table">
+    <thead>
+        <tr class="row">
+        <th align="left" class="col-sm-2">Date</th>
+        <th align="left" class="col-sm-7">Topic</th>
+        <th align="left" class="col-sm-3">Resources</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for week in page.weeks %}
+        <tr class="row">
+            <td class="col-sm-2">{{ week.date }}</td>
+            <td class="col-sm-7"> {{ week.topic | markdownify }} </td>
+            <td class="col-sm-3">
+                {{ week.resources | markdownify }}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

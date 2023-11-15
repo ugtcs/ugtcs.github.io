@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /reading-groups/
+---
+
+<h1>Reading Groups</h1>
+
+{% assign groups_by_sem = site.reading-groups | group_by: 'sem' | sort: 'name' | reverse %}
+
+<p>Every semester UGTCS hosts one or more reading groups, which meet weekly to talk about papers for a certain topic.</p>
+
+{% for sem in groups_by_sem %}
+    <h2>{% include sem.html sem=sem.name %} {% if forloop.first %}(Current){% endif %}</h2>
+    <ul>
+        {% for group in sem.items %}
+        <li>
+            
+            <a href="{{ group.url }}">{{ group.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endfor %}

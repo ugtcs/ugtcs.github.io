@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<div class="jumbotron jumbotron-people text-light text-center">
+  <div class="container py-5 my-5s">
+    <div class="row justify-content-md-center">
+      <div class="col-md-9">
+        <h1 class="title">
+          An inclusive undergraduate CS Theory community at Berkeley
+        </h1>
+        <a class="btn btn-primary btn-lg" href="{% link get-involved.html %}">Get Involved</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row py-3">
+    <div class="col">
+      <h2 class="mt-0">About Us</h2>
+      <p>Berkeley is one of the cradles of theoretical computer science, a subject of study at the intersection of computer science and mathematics.
+        The <code></code><b>U</b>nder<b>g</b>raduate <b>T</b>heoretical <b>C</b>omputer <b>S</b>cience at Berkeley (<b>UGTCS</b>) is a broader community for students of all interests and backgrounds 
+        to learn and get involved in this beautiful subject.
+      </p>
+      <p>Through social events, study groups, reading groups, seminars, and panels, we explore the mathematical foundations of CS as well as its intrinsic connections other studies: economics through computational game theory and mechanism design, physics through random structures and quantum computing, biology, and mathematics.
+        We make our events not only educational and enlightening, but also approachable and fun.</p>
+      <p>To get involved, join our discord through this link: <a href="https://discord.gg/W5aH8HaM4">https://discord.gg/W5aH8HaM4</a>. (only valid until 12/7 - afterwards, email ronitnath@berkeley.edu for access)</p>
+    </div>
+  </div>
+
+  {# <div class="row my-3">
+    <div class="col-sm">
+      <h2>Latest Post from the UGTCS Blog</h2>
+      {% for post in site.posts limit: 1 %}
+        {% include post-link.html post=post %}
+      {% endfor %}
+      <br>
+    </div>
+  </div> #}
+
+  <div class="row my-3">
+    <div class="col">
+      <h2>Offerings</h2>
+      <div class="card-columns homepage-cards">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Reading Groups</h5>
+            <p class="card-text">Every semester UGTCS hosts one or more reading groups, 
+              which meet weekly to talk about papers for a certain topic.
+            These are a fantastic opportunity to learn interesting topics in more depth.</p>
+            <a href="{% link reading-groups.html %}" class="btn btn-secondary">View Reading Groups</a>
+          </div>
+          <img src="/assets/img/reading-group.jpg" class="card-img-bottom" alt="UGTCS social">
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Research</h5>
+            <p class="card-text">
+              Our members often take on research projects in CS theory advised by Berkeley professors or graduate students.
+              We are pioneering some initiatives so that members can do research within the club, 
+              with the goal of making CS theory research less daunting.
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Reading Groups</a> -->
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Community</h5>
+            <p class="card-text"> 
+              We have several venues for community, including an active Slack workspace.
+              We are also closely connected to the Berkeley theory community at large.
+
+              Some subset of us is always present at <a href="http://theory.cs.berkeley.edu/theory-lunch.html">Theory Lunch</a>, Wednesdays at 12pm in the Wozniak Lounge.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Socials</h5>
+            <p class="card-text">
+              We host at least one really fun social every semester.
+              It's always a fantastic time to joke around about theory, and meet people who are interested
+              in the subject!
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Events</a> -->
+          </div>
+          <img src="/assets/img/socials.jpg" class="card-img-bottom" alt="UGTCS social">
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Advising</h5>
+            <p class="card-text">As a research-heavy club, many of our members are interested in graduate school.
+              We are planning to host events such as a graduate student panel and grad school workshop, to make this
+              sometimes complicated and scary process a little easier!
+            </p>
+            <!-- <a href="{% link reading-groups.html %}" class="btn btn-primary">See Reading Groups</a> -->
+          </div>
+          <img src="/assets/img/gm.jpg" class="card-img-bottom" alt="UGTCS sp20 gm">
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Swag</h5>
+            <p class="card-text">Once in a while, we get cool stuff like stickers or branded jackets!</p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Something Else?</h5>
+            <p class="card-text">Interested in starting something new? 
+              Have an idea you would like to try <em>in theory</em>? Get in touch with us!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
